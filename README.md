@@ -1,4 +1,4 @@
-Multi-group server-client chat application.
+# Multi-client multi-group chat application.
 
 The application has 3 main components -
 
@@ -30,5 +30,5 @@ The application has 2 output files : coordinator.out and client.out.
 coordinator.out is linked with the server.o file, and hence is responsible for
 creating the chat servers on demand.
 
-# To run the coordinator application - $make server
-# To run the client application - $make client
+To run the coordinator application - $make server
+To run the client application - $make client
